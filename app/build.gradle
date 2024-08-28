@@ -1,4 +1,5 @@
 apply plugin: 'com.android.application'
+
 apply plugin: 'kotlin-android'
 apply plugin: 'kotlin-android-extensions'
 
@@ -29,6 +30,5 @@ dependencies {
     implementation libs.flexbox
 //    implementation 'com.loopeer.lib:shadow:0.0.2'
     implementation project(':shadow')
-    implementation "org.jetbrains.kotlin:kotlin-stdlib-jre7:$kotlin_version"
     implementation libs.constraintLayout
 }

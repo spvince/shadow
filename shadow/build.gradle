@@ -26,10 +26,9 @@ android {
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     implementation libs.appcompatV7
-    compile "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
 }
 repositories {
     mavenCentral()
+    google()
+    gradlePluginPortal()
 }
-
-apply from: 'bintray.gradle'

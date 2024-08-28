@@ -181,6 +181,8 @@ class ShadowViewActivity : AppCompatActivity() {
                         shadowView.invalidate()
                     })
                 }
+
+                else -> {}
             }
         }
     }
@@ -226,6 +228,8 @@ class ShadowViewActivity : AppCompatActivity() {
                         }
                     }
                 }
+
+                else -> {}
             }
         }
 
